@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 40;
+}
+
+.header div {
+  padding: 50 20 0 60;
+  
+  
+  
+}
+
+.header div, input{
+  border-radius: 8px;
+   
+  
+}
+
+/* main */
+
+.main{
+  display: flex;
+  flex-flow: wrap;
+  
+}
+
+.main .aside {
+  width: 15%;
+  padding: 20;
+  
+}
+
+.main .section{
+  display: flex;  
+  padding: 10px;
+  margin: 0 -10px;
+  
+}
+
+/* aside */
+
+.aside {
+  display:inline;
+  padding: 10px;
+  color: pink;
+  
+}
+/* article */
+
+.article{
+  width: 25px;
+  position: relative;
+  padding: 0 10px;
+}
+
+.article img{
+  width: 100%;
+}
+
+.article div {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  left: 10px;
+  bottom: 0;
+  color: #ffff;
+  padding: 10px;
+}
